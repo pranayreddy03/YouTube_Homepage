@@ -42,3 +42,32 @@ h1,h2,h3,h4,h5,h6
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+header
+{
+    padding-top: 30px;
+}
+.logo
+{
+    max-width: 60%;
+}
+#menu-toggle
+{
+    position: absolute;
+    top: 30%;
+    left: 78%;
+}
+#menu-toggle img
+{
+    max-width: 20px;
+}
+input
+{
+    width: 100%;
+    border: 1px solid #d9dcdf;
+    color: #66747f;
+    font-size: 12px;
+    padding: 17px 25px;
+    background: url("../images/search.png") #f7f8fa no-repeat right 35px center;
+    background-size: 3%;
+    outline: none;
+}
